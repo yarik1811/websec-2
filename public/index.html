@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Multiplayer Arcade Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="username" id="auth">
+        <input type="text" id="playerNameInput" placeholder="Укажите свой никнейм">
+        <button onclick="startGame()">Старт</button>
+    </div>
+
+    <div id="menu" style="display: none;">
+        
+        <h2>Счёт:</h2>
+        <ul id="userList"></ul>
+    </div>
+    <div id="game" style="display: none;">
+        <div class="player" id="player1"></div>
+        <img src="star.png" class="star" id="star"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
